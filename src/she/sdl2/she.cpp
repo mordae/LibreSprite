@@ -39,6 +39,8 @@
 #include <chrono>
 #include <thread>
 
+#undef None
+
 float penPressure = 0;
 
 namespace ui {
