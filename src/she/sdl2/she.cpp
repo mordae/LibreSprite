@@ -437,7 +437,7 @@ namespace she {
           }
 
           default:
-            std::cout << "Unknown windowevent: " << (int) sdlEvent.window.event << std::endl;
+            std::cout << "Unknown windowevent: 0x" << std::hex << sdlEvent.window.event << std::endl;
             continue;
           }
           continue;
@@ -607,7 +607,7 @@ namespace she {
           continue;
 
         default:
-          std::cout << "Unknown event: " << sdlEvent.type << std::endl;
+          std::cout << "Unknown event: 0x" << std::hex << sdlEvent.type << std::endl;
           continue;
         }
       }
